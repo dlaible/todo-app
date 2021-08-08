@@ -5,7 +5,21 @@
 }
 
 body {
-    background: #262626;
+    background: #1a202c;
     color: #FFFFFF;
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 600px;
+}
+
+.divider {
+    background: linear-gradient(to right, #0987a0, #805ad5);
+    height: 6px;
 }

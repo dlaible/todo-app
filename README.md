@@ -1,6 +1,6 @@
 # TODO App
 
-> A simple yet pretty, non-persistent TODO app I made to occupy some time on a lazy Saturday afternoon.
+> A simple, yet pretty, non-persistent TODO app I made to occupy some time on a lazy Saturday afternoon.
 
 ## Project Init
 

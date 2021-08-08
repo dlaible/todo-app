@@ -1,0 +1,21 @@
+.add-task {
+    background: #2c313d;
+    border-radius: 6px;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+    outline: none;
+    padding: 0.75em;
+    width: 100%;
+}
+
+.prompt {
+    color: #ffffff;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    margin-top: 1em;
+}

@@ -1,0 +1,43 @@
+.parent {
+    display: flex;
+}
+
+.task {
+    background: #2c313d;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    padding: 0.8em 1.25em;
+    transition: transform 200ms;
+    user-select: none;
+}
+
+.task:hover {
+    transform: scale(1.03);
+}
+
+.task-done {
+    text-decoration-line: line-through;
+}
+
+.task-img-done {
+    filter: invert(77%) sepia(22%) saturate(1214%) hue-rotate(115deg) brightness(81%) contrast(87%);
+}
+
+.task-img-todo {
+    filter: invert(6%) sepia(9%) saturate(5307%) hue-rotate(186deg) brightness(89%) contrast(84%);
+}
+
+.task-info {
+    align-items: center;
+    display: flex;
+    flex: 16;
+}
+
+.task-status {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
