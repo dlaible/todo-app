@@ -1,9 +1,11 @@
 {
-  "version": "0.0.0",
+  "name": "todo-app",
+  "productName": "todo-app",
+  "version": "1.0.0",
+  "description": "Simple TODO application",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
+    "build:prod": "tsc && vite build"
   },
   "dependencies": {
     "react": "^17.0.0",
